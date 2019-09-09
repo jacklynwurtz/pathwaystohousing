@@ -1,0 +1,10 @@
+body,
+html {
+    font-family: ;
+    height: 100%;
+    box-sizing: border-box;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+}
