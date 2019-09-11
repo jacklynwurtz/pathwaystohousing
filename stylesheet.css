@@ -78,5 +78,9 @@ a {
 }
 
 a:hover {
-color:#F5BB00;
+    color:#F5BB00;
+}
+
+a:active {
+    color: #1C3F21;
 }
