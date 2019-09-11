@@ -74,4 +74,9 @@ div.footer,
 a {
     color: #fffdf2; 
     padding: 15px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+color:#F5BB00;
 }
