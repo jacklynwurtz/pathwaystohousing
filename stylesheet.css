@@ -1,6 +1,5 @@
 body,
-html,
-footer {
+html {
     font-family: ;
     height: 100%;
     box-sizing: border-box;
@@ -60,3 +59,12 @@ footer {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
   }
 
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1C3F21;
+    color: #fffdf2;
+    height: 50px;  
+}
