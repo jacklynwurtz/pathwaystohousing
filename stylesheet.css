@@ -7,7 +7,7 @@ html {
     padding: 0;
 }
 
-html::after {
+.home-bg::after {
     content: "";
     background: url("Images/rsz_1rsz_1rsz_1house2.jpg");
     background-repeat: no-repeat;
