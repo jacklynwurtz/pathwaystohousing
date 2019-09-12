@@ -22,31 +22,76 @@ html::after {
   }
 
   * {
+    box-sizing: border-box;
+    padding: 0;
     margin: 0;
   }
 
-.nav {
+.navbar {
+    font-size: 1em;
     background-color: #1C3F21;
-    color: #fffdf2;
-    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 25px;
+}
+.main-nav {
+    list-style-type: none;
+    display: none;
 }
 
-.nav ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;  
-    align-items: center;
-    margin: 0;
-    padding: 0;
+.nav-links {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
 }
 
-.nav li {
-    padding: 14px;
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
 }
 
-.nav a:hover {
-    background-color: #F5BB00;
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+}
+
+.active {
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10;
+        height: 70px;
+        align-items: center;
+    }
+
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .main-nav li {
+        margin: 0;
+    }
+
+    .nav-links {
+        margin-left: 40px;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .nav-links:hover {
+        color: rgba(255, 255, 255, 1);
+    }
 }
 
 .heading {
@@ -96,13 +141,13 @@ footer {
 
 div.footer,
 a {
-    color: #fffdf2; 
+    color: rgba(255, 255, 255, 0.7);
     padding: 15px 20px;
     text-decoration: none;
 }
 
 div.footer a:hover {
-    color:#F5BB00;
+    color: rgba(255, 255, 255, 1);
 }
 
 a:active {
