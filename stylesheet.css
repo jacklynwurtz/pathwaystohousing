@@ -21,6 +21,10 @@ html::after {
     z-index: -1;   
   }
 
+  * {
+    margin: 0;
+  }
+  
 .nav {
     background-color: #1C3F21;
     color: #fffdf2;
