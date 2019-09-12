@@ -7,7 +7,7 @@ html {
     padding: 0;
 }
 
-html::after {
+.home-bg::after {
     content: "";
     background: url("Images/rsz_1rsz_1rsz_1house2.jpg");
     background-repeat: no-repeat;
@@ -19,6 +19,10 @@ html::after {
     right: 0;
     position: absolute;
     z-index: -1;
+}
+
+.secondary-bg {
+    background: #879a88;
 }
 
 * {
@@ -102,6 +106,29 @@ html::after {
 
 .heading h2 {
     font-size: 24px;
+}
+
+.subheading {
+    text-align: center;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.resource-info {
+    text-align: center;
+}
+
+.resource-info a {
+    color: #1C3F21;
+    font-size: 1.5em;
+}
+
+.resource-info p {
+    font-size: 1em;
+}
+
+.resource-info a:hover {
+    color: white;
 }
 
 .startHere {
