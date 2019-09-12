@@ -32,7 +32,15 @@ html::after {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;  
-    align-items: center; 
+    align-items: center;
+}
+
+.nav li {
+    padding: 14px;
+}
+
+.nav li:hover {
+    background-color: #F5BB00;
 }
 
 .heading {
