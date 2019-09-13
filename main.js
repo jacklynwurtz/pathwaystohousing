@@ -1,7 +1,6 @@
 // Script to open navbar hamburger menu when viewing from mobile device
-let mainNav = document.getElementById('js-menu');
-let navBarToggle = document.getElementById('js-navbar-toggle');
-
-navBarToggle.addEventListener('click', function () {
-  mainNav.classList.toggle('active');
+$(document).ready(function() {
+    $(".burger").on("click", function() {
+        $("nav li").toggleClass("open");
+    });
 });

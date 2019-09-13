@@ -31,66 +31,73 @@ html {
     margin: 0;
 }
 
-.navbar {
-    font-size: 1em;
+nav {
     background-color: #1C3F21;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 25px;
+    color: white;
+    list-style: none;
+    clear: both;
 }
 
-.main-nav {
-    list-style-type: none;
-    display: none;
+nav li {
+    display: inline-block;
+    margin: 10px;
 }
 
-.nav-links {
+nav a {
+    color: rgb(235, 231, 231);
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.7);
-}
-
-.main-nav li {
+    font-size: 19px;
     text-align: center;
-    margin: 15px auto;
 }
 
-.navbar-toggle {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    cursor: pointer;
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 24px;
+body {
+    margin: 0;
 }
 
-.active {
-    display: block;
+.burger div {
+    width: 25px;
+    height: 3px;
+    background: rgb(235, 231, 231);
+    margin: 6px 0;
+    border-radius: 40px;
 }
 
-@media screen and (min-width: 768px) {
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 10;
-        height: 70px;
-        align-items: center;
+#burger {
+    float: right;
+    visibility: hidden;
+    margin: 5px;
+}
+
+@media screen and (max-width:700px) {
+    #burger {
+        visibility: visible;
     }
-    .main-nav {
-        display: flex;
-        margin-right: 30px;
-        flex-direction: row;
-        justify-content: flex-end;
+    .burger {
+        display: block;
+        height: 40px;
+        width: 30px;
+        float: right;
+        cursor: pointer;
     }
-    .main-nav li {
-        margin: 0;
+    nav {
+        list-style: none;
+        overflow: hidden;
+        min-height: 40px;
+        margin: 0px auto;
     }
-    .nav-links {
-        margin-left: 40px;
-    }
-    .navbar-toggle {
+    nav li {
         display: none;
     }
-    .nav-links:hover {
-        color: rgba(255, 255, 255, 1);
+    nav li.open {
+        float: none;
+        text-align: left;
+        margin: 0;
+        visibility: visible;
+        display: block;
+        text-align: center;
+        padding-top: 40px;
+        width: 100%;
+        height: auto;
     }
 }
 
