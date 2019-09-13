@@ -211,7 +211,117 @@ div.link-text {
     color: #fffdf2;
     cursor: pointer;
 }
+/****************/
+ /* Contact Page*/
+ /***************/
 
+ form {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: inline-flex;
+    width: 100%;
+    flex-flow: row-wrap; 
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container {
+    width: 100%;
+    align-items: center;
+    justify-items: space evenly;
+  }
+  
+  .firstcontainer {
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    padding: 15px 15px;
+    color: #404e4d;
+  }
+  
+  .form-item {
+    width: 30%;
+    flex: 0 1 auto;
+  }
+  
+  .label-container {
+    width: 25%;
+    flex: 0 1 auto; 
+    display: inline-flex;
+  }
+  
+  .input-container {
+    width: 70%;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    display: inline-flex;
+    justify-items: space-evenly;
+    box-sizing: border-box;
+  }
+  
+  .secondcontainer {
+    flex: 0 0 auto;
+    width: auto;
+    padding: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 5px;
+    color: #404e4d;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: white;
+    color: #888;
+    padding: 5px 20px;
+    border: 5px solid #888;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: .75em;
+    flex: 1 1 auto;
+  }
+  
+  input[type=submit]:hover {
+    border: 5px solid #b84d00;
+  }
+  
+   /* Style inputs, select elements and textareas */
+   input[type=text], select, textarea {
+    width: 70%;
+    padding: 10px;
+    color: #404e4d;
+    border: 2px solid #404e4d;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    justify-content: space-evenly;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    firstcontainer, secondcontainer, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+    .fa {
+      margin-right:5px;
+    }
+  
+  
 footer {
     position: fixed;
     left: 0;
