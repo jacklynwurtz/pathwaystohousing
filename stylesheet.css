@@ -28,27 +28,56 @@ body, html {
 
 .secondary-bg {
     background: #879a88;
+    width: 100%;
+    height: 100%;
 }
 
 nav {
     background-color: #1C3F21;
-    color: white;
     list-style: none;
     clear: both;
 }
 
 nav li {
     display: inline-block;
-    margin: 10px;
+    margin: 0px 31px 13px;
 }
 
 nav a {
-    color: rgb(235, 231, 231);
+    color:rgba(255, 255, 255, 0.7);
     text-decoration: none;
     font-size: 19px;
-    text-align: center;
 }
 
+nav a:hover {
+    color: rgba(255, 255, 255, 1); 
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+  }
+
+  ul.breadcrumb li a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+  }
+
+  ul.breadcrumb li a:hover {
+    color:rgba(255, 255, 255, 1);
+  }
 
 .burger div {
     width: 25px;
@@ -85,8 +114,17 @@ nav a {
     text-decoration: underline;
 }
 
-.resource-info {
+ .resource-info {
     text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+div.link-text {
+    width: 50%;
 }
 
 .resource-info a {
