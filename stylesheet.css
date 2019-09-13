@@ -87,8 +87,17 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.resource-info {
+ .resource-info {
     text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+div.link-text {
+    width: 50%;
 }
 
 .resource-info a {
