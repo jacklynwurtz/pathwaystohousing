@@ -3,8 +3,9 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,23 +13,26 @@
     <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
 </head>
 
 <body>
-    <nav class="navbar">
-        <span class="navbar-toggle" id="js-navbar-toggle">
-            <i class="fa fa-bars"></i>
-        </span>
-        <ul class="main-nav" id="js-menu">
-            <li><a href="#" class="nav-links">Start Here</a></li>
-            <li><a href="generalResources.html" class="nav-links">General Resources</a></li>
-            <li><a href="#" class="nav-links">Families</a></li>
-            <li><a href="#" class="nav-links">College</a></li>
-            <li><a href="#" class="nav-links">Seniors</a></li>
-            <li><a href="#" class="nav-links">Printables</a></li>
-            <li><a href="#" class="nav-links">Contact</a></li>
-        </ul>
+    <nav>
+        <div id="burger" class="burger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <br>
+        <li><a href="#">Start</a></li>
+        <li><a href="generalResources.html ">Resources</a></li>
+        <li><a href="#">Families</a></li>
+        <li><a href="#">College</a></li>
+        <li><a href="#">Seniors</a></li>
+        <li><a href="#">Printables</a></li>
+        <li><a href="#">Contact</a></li>
     </nav>
 
     <div class="heading">
@@ -38,8 +42,11 @@
     <div class="startHere">
         <button type="button" class="start"><span>Start Here</span></button>
     </div>
+    <div class="resource-type">
+        <p>Choose the appropriate resource type.</p>
+    </div>
     <div class="resource-links">
-        <a class="card" href="#">General Resources</a>
+        <a class="card" href="generalResources.html">General Resources</a>
         <a class="card" href="#">Low Income Families</a>
         <a class="card" href="#">College Students</a>
         <a class="card" href="#">Senior Citizens</a>

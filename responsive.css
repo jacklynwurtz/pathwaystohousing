@@ -1,0 +1,32 @@
+@media screen and (max-width:700px) {
+    #burger {
+        visibility: visible;
+    }
+    .burger {
+        display: block;
+        height: 40px;
+        width: 30px;
+        float: right;
+        cursor: pointer;
+    }
+    nav {
+        list-style: none;
+        overflow: hidden;
+        min-height: 40px;
+        margin: 0px auto;
+    }
+    nav li {
+        display: none;
+    }
+    nav li.open {
+        float: none;
+        text-align: left;
+        margin: 0;
+        visibility: visible;
+        display: block;
+        text-align: center;
+        padding-top: 40px;
+        width: 100%;
+        height: auto;
+    }
+}
