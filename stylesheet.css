@@ -32,21 +32,23 @@ body, html {
 
 nav {
     background-color: #1C3F21;
-    color: white;
     list-style: none;
     clear: both;
 }
 
 nav li {
     display: inline-block;
-    margin: 10px;
+    margin: 0px 31px 13px;
 }
 
 nav a {
-    color: rgb(235, 231, 231);
+    color:rgba(255, 255, 255, 0.7);
     text-decoration: none;
     font-size: 19px;
-    text-align: center;
+}
+
+nav a:hover {
+    color: rgba(255, 255, 255, 1); 
 }
 
 
