@@ -286,7 +286,7 @@ div.link-text {
     color: #888;
     padding: 5px 20px;
     border: 5px solid #888;
-    border-radius: 30px;
+    border-radius: 10px;
     cursor: pointer;
     font-size: .75em;
     flex: 1 1 auto;
