@@ -28,6 +28,8 @@ body, html {
 
 .secondary-bg {
     background: #879a88;
+    width: 100%;
+    height: 100%;
 }
 
 nav {
@@ -51,6 +53,31 @@ nav a:hover {
     color: rgba(255, 255, 255, 1); 
 }
 
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+  }
+
+  ul.breadcrumb li a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+  }
+
+  ul.breadcrumb li a:hover {
+    color:rgba(255, 255, 255, 1);
+  }
 
 .burger div {
     width: 25px;
