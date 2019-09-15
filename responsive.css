@@ -30,3 +30,17 @@
         height: auto;
     }
 }
+
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    firstcontainer, secondcontainer, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  @media screen and (max-width: 1250px) {
+      .heading {
+          margin-top: 100px;
+      }
+  }
