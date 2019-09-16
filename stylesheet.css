@@ -259,11 +259,11 @@ div.link-text {
     flex: 0 1 auto;
     flex-wrap: wrap;
     align-content: center;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     width: 100%;
     padding: 15px 15px;
-    color: #404e4d;
+    color: #1C3F21;
   }
   
   .form-item {
