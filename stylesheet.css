@@ -254,22 +254,22 @@ div.link-text {
     justify-content: center;
     width: 100%;
     padding: 15px 15px;
-    color: #404e4d;
+    color: #1C3F21;
   }
   
   .form-item {
-    width: 30%;
+    width: 40%;
     flex: 0 1 auto;
   }
   
   .label-container {
-    width: 25%;
+    width: 30%;
     flex: 0 1 auto; 
     display: inline-flex;
   }
   
   .input-container {
-    width: 70%;
+    width: 60%;
     flex: 0 1 auto;
     flex-wrap: wrap;
     display: inline-flex;
@@ -291,23 +291,25 @@ div.link-text {
   /* Style the label to display next to the inputs */
   label {
     padding: 12px 12px 12px 5px;
-    color: #404e4d;
+    color: #1C3F21;
   }
   
   /* Style the submit button */
   input[type=submit] {
-    background-color: white;
-    color: #888;
+    background-color: #b84d00;
+    color: white;
     padding: 5px 20px;
-    border: 5px solid #888;
-    border-radius: 10px;
+    border: 1px solid white;
+    border-radius: 50px;
     cursor: pointer;
     font-size: .75em;
     flex: 1 1 auto;
+    margin-top: 15px;
+    margin-left: 70px;
   }
   
   input[type=submit]:hover {
-    border: 5px solid #b84d00;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   }
   
    /* Style inputs, select elements and textareas */
