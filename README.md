@@ -20,7 +20,8 @@ This wireframe will show you how this project started and the overall look that 
 * 
 ---
 ## Contributors
-```Marcie Ferrick
+```
+Marcie Ferrick
 
 Melissa McMahon
 
