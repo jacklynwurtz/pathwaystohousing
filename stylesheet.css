@@ -249,16 +249,16 @@ div.link-text {
     align-items: center;
   }
   
-  .form-container {
+ .form-container {
     width: 100%;
     align-items: center;
-    justify-items: space evenly;
+    justify-items: space-evenly;
   }
   
   .firstcontainer {
     flex: 0 1 auto;
     flex-wrap: wrap;
-    align-content: flex-start;
+    align-content: center;
     display: inline-flex;
     justify-content: center;
     width: 100%;
@@ -267,14 +267,20 @@ div.link-text {
   }
   
   .form-item {
-    width: 30%;
+    width: 35%;
+    min-width: 250px;
+    max-width: 35%;
     flex: 0 1 auto;
+    flex-wrap: wrap;
   }
   
   .label-container {
     width: 25%;
     flex: 0 1 auto; 
     display: inline-flex;
+    min-width: 100px;
+    max-width: 30%;
+    flex-wrap: wrap;
   }
   
   .input-container {
@@ -282,8 +288,9 @@ div.link-text {
     flex: 0 1 auto;
     flex-wrap: wrap;
     display: inline-flex;
-    justify-items: space-evenly;
     box-sizing: border-box;
+    justify-content: center;
+    align-content: space-between;
   }
   
   .secondcontainer {
@@ -306,14 +313,19 @@ div.link-text {
   
   /* Style the submit button */
   input[type=submit] {
-    background-color: white;
-    color: #888;
-    padding: 5px 20px;
-    border: 5px solid #888;
-    border-radius: 10px;
+    background-color: #b84d00;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 50px;
     cursor: pointer;
     font-size: .75em;
     flex: 1 1 auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 50%;
+    min-width: 75px;
   }
   
   input[type=submit]:hover {
