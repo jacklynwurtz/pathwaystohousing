@@ -8,7 +8,7 @@ Through the use of Jamboard, we developed our stakeholder map, empathy map and '
 
 Through this process we decided we would primarily center on a national level with focus on low income families, college students and senior citizens. 
 
-This is the first version of this website which established 
+It is our goal to establish a functioning well designed website for professionals to access in aiding with persons with housing insecurites. Similarly, we hope to provide resourses that can be printed to offer tangible help. 
 
 ---
 ## Figma Wireframe 
@@ -17,13 +17,13 @@ This wireframe will show you how this project started and the overall look that 
 [Pathways to Housing Wireframe](https://www.figma.com/file/wTouzYHcbvREQypYVmkEuH/finalProject?node-id=11%3A1)
 
 ---
-**Website Goals**
+**Future Website Goals**
 
-* Establish a functioning well designed website for professionals to access in aiding with persons with housing insecurites.
+* Expand our our reach to include resources for more special populations (Veterans, LGBTQIA, Victims of domestic violence, persons with diablities)
 
-* Acquire easy to printable resourses.
+* Maintain and expand our printable resourse library.
 
-* 
+* Create a space to include specific regions and local resourses including more rural areas.
 
 ---
 
