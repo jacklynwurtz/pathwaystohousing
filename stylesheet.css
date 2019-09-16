@@ -240,13 +240,13 @@ div.link-text {
     align-items: center;
   }
   
-  div.form-container {
+ .form-container {
     width: 100%;
     align-items: center;
     justify-items: space-evenly;
   }
   
-  div.firstcontainer {
+  .firstcontainer {
     flex: 0 1 auto;
     flex-wrap: wrap;
     align-content: center;
@@ -257,7 +257,7 @@ div.link-text {
     color: #1C3F21;
   }
   
-  div.form-item {
+  .form-item {
     width: 35%;
     min-width: 250px;
     max-width: 35%;
@@ -265,7 +265,7 @@ div.link-text {
     flex-wrap: wrap;
   }
   
-  div.label-container {
+  .label-container {
     width: 30%;
     flex: 0 1 auto; 
     display: inline-flex;
@@ -274,7 +274,7 @@ div.link-text {
     flex-wrap: wrap;
   }
   
-  div.input-container {
+  .input-container {
     width: 60%;
     flex: 0 1 auto;
     flex-wrap: wrap;
@@ -284,7 +284,7 @@ div.link-text {
     align-content: space-between;
   }
   
-  div.secondcontainer {
+  .secondcontainer {
     flex: 0 0 auto;
     width: auto;
     padding: 15px;
