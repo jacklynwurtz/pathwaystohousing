@@ -4,11 +4,11 @@
 
 This is our final project for our 12 week course with [Moms Can & Co](https://www.momscan.co/?fbclid=IwAR1ET646efCt6oB6jfwub6oXH86j199IRKcie5yaKMl_9VrTOy7ZdmO-urg). We hope to display our knowledge of HTML, CSS and Javascript. Our assignment was  to 'Create a resource for families looking for affordable housing/purchasing opportunities'. 
 
-Through the use of Jamboard, we developed our stakeholder map, empathy map and 'How Might We...'. Additionally, we developed a questionaire and distributed it to get further feedback on the needs for those with housing insecurties and those who aid them. 
+Through the use of Jamboard, we developed our stakeholder map, empathy map and 'How Might We...'. Additionally, we developed a questionnaire and distributed it to get further feedback on the needs for those with housing insecurities and those who aid them. 
 
 Through this process we decided we would primarily center on a national level with focus on low income families, college students and senior citizens. 
 
-It is our goal to establish a functioning well designed website for professionals to access in aiding with persons with housing insecurites. Similarly, we hope to provide resourses that can be printed to offer tangible help. 
+It is our goal to establish a functioning well designed website for professionals to access quickly and easily in aiding persons with housing insecurites. Similarly, we hope to provide resourses that can be printed to offer tangible help. 
 
 ---
 ## Figma Wireframe 
@@ -19,11 +19,11 @@ This wireframe will show you how this project started and the overall look that 
 ---
 **Future Website Goals**
 
-* Expand our our reach to include resources for more special populations (Veterans, LGBTQIA, Victims of domestic violence, persons with diablities)
+* Expand our our reach to include resources for more special populations (Veterans, LGBTQIA, Victims of domestic violence, persons with disabilities)
 
-* Maintain and expand our printable resourse library.
+* Maintain and expand our printable resourse library
 
-* Create a space to include specific regions and local resourses including more rural areas.
+* Create a space to include specific regions and local resources including more rural areas
 
 ---
 
