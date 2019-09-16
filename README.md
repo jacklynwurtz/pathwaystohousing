@@ -2,7 +2,7 @@
 
 [Pathways to Housing Website](https://jacklynwurtz.github.io//)
 
-This is our final project for our 12 week course with [Moms Can & Co](https://www.momscan.co/?fbclid=IwAR1ET646efCt6oB6jfwub6oXH86j199IRKcie5yaKMl_9VrTOy7ZdmO-urg). We hope to display our knowledge of HTML, CSS and Javascript. Our assignment was to develop a website to 'Create a resource for families looking for affordable housing/purchasing opportunities'. 
+This is our final project for our 12 week course with [Moms Can & Co](https://www.momscan.co/?fbclid=IwAR1ET646efCt6oB6jfwub6oXH86j199IRKcie5yaKMl_9VrTOy7ZdmO-urg). We hope to display our knowledge of HTML, CSS and Javascript. Our assignment was  to 'Create a resource for families looking for affordable housing/purchasing opportunities'. 
 
 Through the use of Jamboard, we developed our stakeholder map, empathy map and 'How Might We...'. Additionally, we developed a questionaire and distributed it to get further feedback on the needs for those with housing insecurties and those who aid them. 
 
