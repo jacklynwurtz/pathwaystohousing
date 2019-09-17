@@ -173,6 +173,18 @@ div.link-text {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     background-color: #7d3400;
 }
+/****************/
+ /* Start Page*/
+ /***************/
+.start-info {
+    text-align: left;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+
 
 .resource-type {
     text-align: center;
