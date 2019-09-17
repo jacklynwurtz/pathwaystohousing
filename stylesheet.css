@@ -17,6 +17,7 @@ body, html {
     background: url("Images/rsz_1rsz_1rsz_1house2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: scroll;
     opacity: 0.5;
     top: 0;
     left: 0;
@@ -24,6 +25,7 @@ body, html {
     right: 0;
     position: absolute;
     z-index: -1;
+    
 }
 
 .secondary-bg {
