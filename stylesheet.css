@@ -6,25 +6,37 @@
 
 body, html {
     font-family: 'Open Sans', sans-serif;
-    height: 100%;
+    min-height: 100%;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+ .home-bg {
+    background: 
+        linear-gradient(to bottom, rgba(229, 229, 229, 0.5), rgba(229, 229, 229, 0.5)),   url("Images/rsz_1rsz_1rsz_1house2.jpg")
+    no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+  } 
 
-.home-bg::after {
+ /* .home-bg::before {
     content: "";
     background: url("Images/rsz_1rsz_1rsz_1house2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
     opacity: 0.5;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1;
-}
+    z-index: -1;  
+}  */
 
 .secondary-bg {
     background: #d1c5ab;
