@@ -6,9 +6,9 @@ This is our final project for our 12 week course with [Moms Can & Co](https://ww
 
 Through the use of Jamboard, we developed our stakeholder map, empathy map and 'How Might We...'. Additionally, we developed a questionnaire and distributed it to get further feedback on the needs for those with housing insecurities and those who aid them. 
 
-Through this process we decided we would primarily center on a national level with focus on low income families, college students and senior citizens. 
+Through this process we decided we would primarily center on a national level with focus on low income families, college students and senior citizens. We decided to focus on the helpers because we thought it would be hard to reach those experiencing housing insecurity directly through a website (library/internet access, etc). The helping professionals have an opportunity to be the boots on the ground here, so we wanted to give them all the resources we could. 
 
-It is our goal to establish a functioning well designed website for professionals to access quickly and easily in aiding persons with housing insecurites. Similarly, we hope to provide resourses that can be printed to offer tangible help. 
+It is our goal to establish a functioning well designed website for professionals to access quickly and easily in aiding persons with housing insecurities. Similarly, we hope to provide resources that can be printed to offer tangible help. 
 
 ---
 ## Figma Wireframe 
@@ -21,7 +21,7 @@ This wireframe will show you how this project started and the overall look that 
 
 * Expand our our reach to include resources for more special populations (Veterans, LGBTQIA, Victims of domestic violence, persons with disabilities)
 
-* Maintain and expand our printable resourse library
+* Maintain and expand our printable resource library
 
 * Create a space to include specific regions and local resources including more rural areas
 
