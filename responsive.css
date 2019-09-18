@@ -1,0 +1,49 @@
+@media screen and (max-width:720px) {
+    #burger {
+        visibility: visible;
+    }
+    .burger {
+        display: block;
+        height: 40px;
+        width: 30px;
+        float: right;
+        cursor: pointer;
+    }
+    nav {
+        list-style: none;
+        overflow: hidden;
+        min-height: 40px;
+        margin: 0px auto;
+    }
+    nav li {
+        display: none;
+    }
+    nav li.open {
+        float: none;
+        text-align: left;
+        margin: 0;
+        visibility: visible;
+        display: block;
+        text-align: center;
+        padding-top: 40px;
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    firstcontainer, secondcontainer, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  @media screen and (max-width: 1250px) {
+      .heading {
+          margin-top: 100px;
+      }
+  }
+
+ 
