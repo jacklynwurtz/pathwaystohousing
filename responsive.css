@@ -29,6 +29,7 @@
         width: 100%;
         height: auto;
     }
+
 }
 
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
@@ -44,3 +45,5 @@
           margin-top: 100px;
       }
   }
+
+ 
