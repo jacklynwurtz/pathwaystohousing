@@ -93,12 +93,12 @@ ul.breadcrumb li+li:before {
 }
 
 ul.breadcrumb li a {
-    color: #657866;
+    color: #495649;
     text-decoration: none;
 }
 
 ul.breadcrumb li a:hover {
-    color: #1C3F21;
+    color: #003300;
 }
 
 .burger div {
