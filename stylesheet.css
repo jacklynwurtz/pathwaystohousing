@@ -4,27 +4,40 @@
     margin: 0;
 }
 
-body, html {
+body,
+html {
     font-family: 'Open Sans', sans-serif;
-    height: 100%;
+    min-height: 100%;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.home-bg::after {
+.home-bg {
+    background: linear-gradient(to bottom, rgba(229, 229, 229, 0.5), rgba(229, 229, 229, 0.5)), url("Images/rsz_1rsz_1rsz_1house2.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+
+/* .home-bg::before {
     content: "";
     background: url("Images/rsz_1rsz_1rsz_1house2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
     opacity: 0.5;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1;
-}
+    z-index: -1;  
+}  */
 
 .secondary-bg {
     background: #d1c5ab;
@@ -41,6 +54,7 @@ nav {
     width: 100%;
     z-index: 10;
 }
+
 nav ul {
     display: flex;
     flex-flow: row wrap;
@@ -49,44 +63,43 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin: 0 20px 13px;
+    margin: 0 20px 13px 43px;
 }
 
 nav a {
-    color:rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.7);
     text-decoration: none;
     font-size: 19px;
 }
 
 nav a:hover {
-    color: rgba(255, 255, 255, 1); 
+    color: rgba(255, 255, 255, 1);
 }
 
 ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;
-
 }
 
 ul.breadcrumb li {
     display: inline;
     font-size: 18px;
-  }
+}
 
-  ul.breadcrumb li+li:before {
+ul.breadcrumb li+li:before {
     padding: 8px;
     color: black;
     content: ">\00a0";
-  }
+}
 
-  ul.breadcrumb li a {
-    color: rgba(255, 255, 255, 0.7);
+ul.breadcrumb li a {
+    color: #657866;
     text-decoration: none;
-  }
+}
 
-  ul.breadcrumb li a:hover {
-    color:rgba(255, 255, 255, 1);
-  }
+ul.breadcrumb li a:hover {
+    color: #1C3F21;
+}
 
 .burger div {
     width: 25px;
@@ -101,7 +114,6 @@ ul.breadcrumb li {
     visibility: hidden;
     margin: 5px;
 }
-
 
 .heading {
     text-align: center;
@@ -124,7 +136,12 @@ ul.breadcrumb li {
     text-decoration: underline;
 }
 
- .resource-info {
+.subheading img {
+    width: 80px;
+    height: 80px;
+}
+
+.resource-info {
     text-align: center;
     display: inline-flex;
     flex-direction: column;
@@ -137,6 +154,10 @@ div.link-text {
     width: 50%;
 }
 
+#locator {
+    font-size: 1em;
+}
+
 .resource-info a {
     color: #1C3F21;
     font-size: 1.5em;
@@ -147,7 +168,7 @@ div.link-text {
 }
 
 .resource-info a:hover {
-    color: white;
+    color: #b84d00;
 }
 
 .startHere {
@@ -173,9 +194,16 @@ div.link-text {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     background-color: #7d3400;
 }
+
+
 /****************/
- /* Start Page*/
- /***************/
+
+
+/* Start Page*/
+
+
+/***************/
+
 .start-info {
     text-align: left;
     display: inline-flex;
@@ -184,7 +212,6 @@ div.link-text {
     align-items: center;
     width: 95%;
 }
-
 
 .resource-type {
     text-align: center;
@@ -216,7 +243,6 @@ div.link-text {
 
 .card:hover {
     background: #50583C;
-
 }
 
 .printables {
@@ -238,58 +264,71 @@ div.link-text {
 .print:hover {
     background-color: #7d3400;
 }
-/****************/
- /* Contact Page*/
- /***************/
 
- form {
+
+/****************/
+
+
+/* Contact Page*/
+
+
+/***************/
+
+form {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: inline-flex;
     width: 100%;
-    flex-flow: row-wrap; 
+    flex-flow: row-wrap;
     justify-content: center;
     align-items: center;
-  }
-  
-  .form-container {
+}
+
+.form-container {
     width: 100%;
     align-items: center;
-    justify-items: space evenly;
-  }
-  
-  .firstcontainer {
+    justify-items: space-evenly;
+}
+
+.firstcontainer {
     flex: 0 1 auto;
     flex-wrap: wrap;
-    align-content: flex-start;
-    display: inline-flex;
+    align-content: center;
+    display: flex;
     justify-content: center;
     width: 100%;
     padding: 15px 15px;
-    color: #404e4d;
-  }
-  
-  .form-item {
-    width: 30%;
+    color: #1C3F21;
+}
+
+.form-item {
+    width: 35%;
+    min-width: 250px;
+    max-width: 35%;
     flex: 0 1 auto;
-  }
-  
-  .label-container {
+    flex-wrap: wrap;
+}
+
+.label-container {
     width: 25%;
-    flex: 0 1 auto; 
+    flex: 0 1 auto;
     display: inline-flex;
-  }
-  
-  .input-container {
+    min-width: 100px;
+    max-width: 30%;
+    flex-wrap: wrap;
+}
+
+.input-container {
     width: 70%;
     flex: 0 1 auto;
     flex-wrap: wrap;
     display: inline-flex;
-    justify-items: space-evenly;
     box-sizing: border-box;
-  }
-  
-  .secondcontainer {
+    justify-content: center;
+    align-content: space-between;
+}
+
+.secondcontainer {
     flex: 0 0 auto;
     width: auto;
     padding: 15px;
@@ -298,33 +337,45 @@ div.link-text {
     display: flex;
     flex-direction: column;
     height: auto;
-  
-  }
-  
-  /* Style the label to display next to the inputs */
-  label {
+}
+
+
+/* Style the label to display next to the inputs */
+
+label {
     padding: 12px 12px 12px 5px;
-    color: #404e4d;
-  }
-  
-  /* Style the submit button */
-  input[type=submit] {
-    background-color: white;
-    color: #888;
-    padding: 5px 20px;
-    border: 5px solid #888;
-    border-radius: 10px;
+    color: #1C3F21;
+}
+
+
+/* Style the submit button */
+
+input[type=submit] {
+    background-color: #b84d00;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 50px;
     cursor: pointer;
     font-size: .75em;
     flex: 1 1 auto;
-  }
-  
-  input[type=submit]:hover {
-    border: 5px solid #b84d00;
-  }
-  
-   /* Style inputs, select elements and textareas */
-   input[type=text], select, textarea {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 50%;
+    min-width: 75px;
+}
+
+input[type=submit]:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* Style inputs, select elements and textareas */
+
+input[type=text],
+select,
+textarea {
     width: 70%;
     padding: 10px;
     color: #404e4d;
@@ -335,14 +386,12 @@ div.link-text {
     flex-wrap: wrap;
     flex: 1 1 auto;
     justify-content: space-evenly;
-  }
-  
+}
 
-    .fa {
-      margin-right:5px;
-    }
-  
-  
+.fa {
+    margin-right: 5px;
+}
+
 footer {
     position: fixed;
     left: 0;
@@ -366,4 +415,20 @@ div.footer a:hover {
 
 a:active {
     color: #1C3F21;
+}
+
+
+/*background color for resource and contact pages*/
+
+.resource-body {
+    background-color: #fff9e6;
+}
+
+
+/*printables page*/
+
+.link-text img {
+    padding-top: 20px;
+    width: 80px;
+    height: 100px;
 }
