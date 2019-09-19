@@ -213,6 +213,18 @@ div.link-text {
     width: 95%;
 }
 
+.start-text {
+    width: 50%;
+}
+
+.start-link {
+    color: #003300;
+}
+
+.start-link:hover {
+    color: #b84d00;
+}
+
 .resource-type {
     text-align: center;
     font-size: 2em;
