@@ -45,6 +45,12 @@ html {
     height: 100%;
 }
 
+
+a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
 nav {
     background-color: #1C3F21;
     list-style: none;
@@ -93,12 +99,12 @@ ul.breadcrumb li+li:before {
 }
 
 ul.breadcrumb li a {
-    color: #657866;
+    color: #495649;
     text-decoration: none;
 }
 
 ul.breadcrumb li a:hover {
-    color: #1C3F21;
+    color: #003300;
 }
 
 .burger div {
@@ -137,8 +143,8 @@ ul.breadcrumb li a:hover {
 }
 
 .subheading img {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 60px;
 }
 
 .resource-info {
@@ -213,6 +219,18 @@ div.link-text {
     width: 95%;
 }
 
+.start-text {
+    width: 50%;
+}
+
+.start-link {
+    color: #003300;
+}
+
+.start-link:hover {
+    color: #b84d00;
+}
+
 .resource-type {
     text-align: center;
     font-size: 2em;
@@ -262,6 +280,7 @@ div.link-text {
 }
 
 .print:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     background-color: #7d3400;
 }
 
@@ -402,8 +421,7 @@ footer {
     height: 50px;
 }
 
-div.footer,
-a {
+.footer {
     color: rgba(255, 255, 255, 0.7);
     padding: 15px 20px;
     text-decoration: none;
