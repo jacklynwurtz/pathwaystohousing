@@ -234,6 +234,7 @@ div.link-text {
 .resource-type {
     text-align: center;
     font-size: 2em;
+    margin-top: 40px;
 }
 
 .resource-links {
