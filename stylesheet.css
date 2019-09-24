@@ -45,6 +45,12 @@ html {
     height: 100%;
 }
 
+
+a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
 nav {
     background-color: #1C3F21;
     list-style: none;
@@ -228,6 +234,7 @@ div.link-text {
 .resource-type {
     text-align: center;
     font-size: 2em;
+    margin-top: 40px;
 }
 
 .resource-links {
@@ -415,8 +422,7 @@ footer {
     height: 50px;
 }
 
-div.footer,
-a {
+.footer {
     color: rgba(255, 255, 255, 0.7);
     padding: 15px 20px;
     text-decoration: none;
